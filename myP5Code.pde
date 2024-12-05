@@ -2,6 +2,7 @@
 void setup() {
     size(400, 400); 
     background(255,255,255,100);
+    background(148,251,255) //RGB
 }
 
 
@@ -16,12 +17,24 @@ void draw(){
   rect(0, 300, 400, 100);  
 
   // The sun
+  fill(255,255,0)
   ellipse(80, 64, 100, 100);  
 
   // The snowman
+  fill (200,0,0)
   ellipse(200, 300, 150, 150);
-  ellipse(200, 200, 100, 100);
+  fill(0,0,0)
+ ellipse(200, 200, 100, 100);
+ fill(0,200,3)
   ellipse(200, 120, 75, 75);
+  
+  line(136,40,199,26)
+  line(95,119,100,147)
+  
+  //headband
+strokeWeight(30);
+stroke(250,0,242)
+line(179,68,244,67)
   
 
 }
